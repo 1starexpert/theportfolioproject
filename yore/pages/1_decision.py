@@ -15,15 +15,18 @@ Legend Trackers already exist, but they tend to be inaccurate at times.
 
 st.subheader("Why Do We Need Legends Trackers?")
 st.write("""
-Many players want to get better at the game. They want to be able to rise to the
-top of the leaderboard and maybe make some money on the side. Some people see a
-business opportunity.
+Many people above 5000 trophies (the elo system in Clash of Clans) are constantly looking for ways to get 
+better at the game. They want to climb the leaderboards of Legends League for the fame or maybe 
+make some shady money on the side (see "Dark Side of Legends League).
+
+Seeing this, many pro players see a business opportunity. Many will offer to sell their trade secrets in 
+return for x amount of money. 
 
 Clash of Clans can essentially broken down into two core aspects: Offense and Defense. Attack
 the bases of other players, while defending your own from attacks. The quickest way to
 get better at the game is to improve one's Offense and Defense.
 
-This is where coaching and subscription services come in.
+This is where coaching and subscription services come in sold by pro players come in.
 
 For offense, Pro players will offer to coach lower level players on their attacks. These
 guys usually charge anywhere from 30-50 bucks an hour.
@@ -38,11 +41,11 @@ account and is posing as pro.
 
 """)
 
-st.subheader("What is Legends League?")
+st.subheader("Darkside of Legends League?")
 
 st.write("""
 
-To casual players, Legends League is understood to be essentially Clash's
+For many, Legends League is understood to be essentially Clash's
 "ranked" mode. It's the most competitive league/division in the game.
 One needs to have above 5000 trophies (Clash's elo system) in order to enter.
 
