@@ -13,7 +13,7 @@ Legend Trackers already exist, but they tend to be inaccurate at times.
 
 """)
 
-st.subheader("What is Legends League? And Why Do We Need Trackers?")
+st.subheader("What is Legends League?")
 
 st.write("""
 
@@ -56,10 +56,8 @@ month. Funny story, Elon Musk has been exposed for doing this with his
 Diablo account.
 
 Because of these lucrative ways to make money unoffically, it has recently
-given rise to another lucrative form of business: Subscription services!!!!
+given rise to another lucrative form of business: Subscription services!!!!""")
 
-Many players want to get better at the game. They want to be able to rise to the
-top of the leaderboard and maybe make some money on the side. 
+st.subheader("Why Do We Need Legends Trackers?")
 
-""")
 
