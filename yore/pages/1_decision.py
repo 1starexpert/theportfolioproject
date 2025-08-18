@@ -13,6 +13,31 @@ Legend Trackers already exist, but they tend to be inaccurate at times.
 
 """)
 
+st.subheader("Why Do We Need Legends Trackers?")
+st.write("""
+Many players want to get better at the game. They want to be able to rise to the
+top of the leaderboard and maybe make some money on the side. Some people see a
+business opportunity.
+
+Clash of Clans can essentially broken down into two core aspects: Offense and Defense. Attack
+the bases of other players, while defending your own from attacks. The quickest way to
+get better at the game is to improve one's Offense and Defense.
+
+This is where coaching and subscription services come in.
+
+For offense, Pro players will offer to coach lower level players on their attacks. These
+guys usually charge anywhere from 30-50 bucks an hour.
+
+On defense, for 30 bucks a month, they will share the base layouts that they are using for
+the month.
+
+To ensure that the guys who are selling their services are not scammers, Legend Trackers
+are critical. These tools allow players to track the offense and defense logs of others,
+ensuring that they are not being scammed by some random joe who just bought a high ranking
+account and is posing as pro. 
+
+""")
+
 st.subheader("What is Legends League?")
 
 st.write("""
@@ -55,9 +80,8 @@ players, helping them finish higher in the World rankings at the end of every
 month. Funny story, Elon Musk has been exposed for doing this with his
 Diablo account.
 
-Because of these lucrative ways to make money unoffically, it has recently
-given rise to another lucrative form of business: Subscription services!!!!""")
+""")
 
-st.subheader("Why Do We Need Legends Trackers?")
+
 
 
