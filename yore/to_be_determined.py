@@ -40,4 +40,5 @@ Anyways, until next time (hopefully)
 
 
 """)
+st.image("Images/profile.jpeg", width =200)
 
