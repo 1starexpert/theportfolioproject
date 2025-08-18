@@ -40,5 +40,5 @@ Anyways, until next time (hopefully)
 
 
 """)
-st.image("Images/profile.jpeg", width =200)
+st.image("yore/Images/profile.jpeg", width =200)
 
