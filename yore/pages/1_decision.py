@@ -13,41 +13,16 @@ Legend Trackers already exist, but they tend to be inaccurate at times.
 
 """)
 
-expander = st.expander("Why Do We Need Legends Trackers?")
+
+
+
+expander = st.expander("What is Legends League?")
+
 expander.write("""
-Many people above 5000 trophies (the elo system in Clash of Clans) are constantly looking for ways to get 
-better at the game. They want to climb the leaderboards of Legends League for the fame or maybe 
-make some shady money on the side (see "Dark Side of Legends League).
-
-Seeing this, many pro players see a business opportunity. Many will offer to sell their trade secrets in 
-return for x amount of money. 
-
-Clash of Clans can essentially broken down into two core aspects: Offense and Defense. Attack
-the bases of other players, while defending your own from attacks. The quickest way to
-get better at the game is to improve one's Offense and Defense.
-
-This is where coaching and subscription services come in sold by pro players come in.
-
-For offense, Pro players will offer to coach lower level players on their attacks. These
-guys usually charge anywhere from 30-50 bucks an hour.
-
-On defense, for 30 bucks a month, they will share the base layouts that they are using for
-the month.
-
-To ensure that the guys who are selling their services are not scammers, Legend Trackers
-are critical. These tools allow players to track the offense and defense logs of others,
-ensuring that they are not being scammed by some random joe who just bought a high ranking
-account and is posing as pro. 
-
-""")
-
-st.subheader("Darkside of Legends League?")
-
-st.write("""
 
 For many, Legends League is understood to be essentially Clash's
 "ranked" mode. It's the most competitive league/division in the game.
-One needs to have above 5000 trophies (Clash's elo system) in order to enter.
+One needs to have above 5000 trophies (trophies are Clash's elo system) in order to enter.
 
 However, to the top .01% of Legends League players, Legends League is
 essentially a business. At times, it can even get quite shady.
@@ -80,11 +55,49 @@ these guys are playing like 10+ accounts.
 
 3) "Pilotting." High level players are paid to play the accounts of other
 players, helping them finish higher in the World rankings at the end of every
-month. Funny story, Elon Musk has been exposed for doing this with his
-Diablo account.
+month. Funny story, Elon Musk has been exposed for hiring a pilot to play Diablo 
+IV for him. 
 
 """)
 
+st.subheader("Why Do We Need Legends Trackers?")
+st.write("""
+As mentioned before, there are many perks to having a high ranking elo in Clash of Clans. Aside 
+from the fame and bragging rights, one can even make a substantial amount of money on the
+side for playing a video game. This has enticed many casual players to shoot for top ranking
+spots on the leaderboards every month.
+
+Seeing this, many pro players see a business opportunity. Many will offer to sell their trade secrets in 
+return for x amount of money. 
+
+Clash of Clans can essentially broken down into two core aspects: Offense and Defense. Attack
+the bases of other players, while defending your own from attacks. The quickest way to
+get better at the game is to improve one's Offense and Defense.
+
+This is where coaching and subscription services come in sold by pro players come in.
+
+For offense, Pro players will offer to coach lower level players on their attacks. These
+guys usually charge anywhere from 30-50 bucks an hour.
+
+On defense, for 30 bucks a month, they will share the base layouts that they are using for
+the month.
+
+To ensure that the guys who are selling their services are not scammers, Legend Trackers
+are critical. These tools allow players to track the offense and defense logs of others,
+ensuring that they are not being scammed by some random joe who just bought a high ranking
+account and is posing as pro. 
+
+Legend Trackers have the ability to log offense and defensive stats of any player competing 
+on the Legends Leaderboard. If a guy claims that he never loses on defense, and attempts 
+to sell his bases for 30 bucks a month, all it takes is a quick search of his logs to see 
+if he's telling the truth. 
+
+Hence, Legends Trackers are critical assets that ensure that innocent Clash of Clans 
+players are not scammed out of their hard earned money. 
+
+Moreover, they provide a lot of data, allowing one to compare their stats to that of 
+pro players and get a better understanding of where they stand. 
+""")
 
 
 
