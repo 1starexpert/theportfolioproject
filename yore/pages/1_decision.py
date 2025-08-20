@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 
-st.title("Decisision!!!!")
+st.title("Decision! 🙏")
 
 st.write("""
 
@@ -16,7 +16,7 @@ Legend Trackers already exist, but they tend to be inaccurate at times.
 
 
 
-expander = st.expander("What is Legends League?")
+expander = st.expander("What is Legends League? 🏆")
 
 expander.write("""
 
@@ -60,7 +60,7 @@ IV for him.
 
 """)
 
-st.subheader("Why Do We Need Legends Trackers?")
+st.subheader("Why Do We Need Legends Trackers? 🧐")
 st.write("""
 As mentioned before, there are many perks to having a high ranking elo in Clash of Clans. Aside 
 from the fame and bragging rights, one can even make a substantial amount of money on the
