@@ -13,8 +13,8 @@ Legend Trackers already exist, but they tend to be inaccurate at times.
 
 """)
 
-st.subheader("Why Do We Need Legends Trackers?")
-st.write("""
+st.expander("Why Do We Need Legends Trackers?")
+expander.write("""
 Many people above 5000 trophies (the elo system in Clash of Clans) are constantly looking for ways to get 
 better at the game. They want to climb the leaderboards of Legends League for the fame or maybe 
 make some shady money on the side (see "Dark Side of Legends League).
