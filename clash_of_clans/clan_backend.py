@@ -33,19 +33,23 @@ def displayClanInformation(tag):
     join_type = clan_dict["type"]
     required_trophies = clan_dict["requiredTrophies"]
     
-    print("Basic Clan Information:")
+    #print("Basic Clan Information:")
 
-    print("Clan Name: " + clan_name)
-    print("Clan Description: ...")
-    print("Clan Level: " + clan_level)
-    print("Number of Members in Clan: " + num_members)
-    print("Clan War League: " + clan_war_league)
-    print("Clan Points: " + clan_points)
-    print("Clan Capital Points: " + clan_capital_points)
-    print("Clan Chat Language: " + chat_language)
-    print("Clan Location: " + clan_location)
-
-    return
+    clan_list = [
+    
+    "Clan Name: " + clan_name,
+    "Clan Description: ...",
+    "Clan Level: " + clan_level,
+    "Number of Members in Clan: " + num_members,
+    "Clan War League: " + clan_war_league,
+    "Clan Points: " + clan_points,
+    "Clan Capital Points: " + clan_capital_points,
+    "Clan Chat Language: " + chat_language,
+    "Clan Location: " + clan_location
+          
+    ]
+    
+    return clan_list
 
 
 
@@ -94,7 +98,13 @@ def displayWarLog():
     
     return
 
-""" 
+"""       
+
+
+
+
+
+
 
 
 
