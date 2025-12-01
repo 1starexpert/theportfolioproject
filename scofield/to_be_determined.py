@@ -1,12 +1,12 @@
 import streamlit as st
 
 # Title of App
-st.title("Hello")
+
 
 # Assignment Data 
 # TODO: Fill out your team number, section, and team members
 
-st.header("November")
+st.header("November...")
 
 
 
