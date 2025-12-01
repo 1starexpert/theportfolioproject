@@ -23,13 +23,5 @@ if clan_tag:
         st.write(line)
 
 
-"""
-def textinput():
 
-    clan_tag = input("Enter a valid clan tag: ")
-    return clan_tag
-
-
-print(clan_backend.displayClanInformation(textinput()))
-"""
 
