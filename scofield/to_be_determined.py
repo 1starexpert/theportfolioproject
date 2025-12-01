@@ -43,4 +43,4 @@ This is not something that I will end up dropping after day 1 like my leetcode a
 
 """)
 
-st.image("Images/profilev1.jpeg", width = 200)
+st.image("scofield/Images/profile.jpeg", width = 200)
