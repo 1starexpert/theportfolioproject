@@ -1,0 +1,102 @@
+##This file contains basic information about clans
+##backend
+
+import requests
+
+from pprint import pprint
+
+#API_TOKEN = "tNDM1YS0yNmMwLTQ4Njk2OTA4MDQyOCIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjEyOC42MS4yLjE5MyJdLCJ0eXBlIjoiY2xpZW50In1dfQ.1_ciCl18GPkwMqxRGZ4wFdCJIVnqDhdrm0mgVJOwLGRfw93UDoC4c4HvUxNEd9PdQSMm9pOtZDv26GvM6v9shQ"
+#API_TOKEN = "l0sInR5cGUiOiJjbGllbnQifV19.BZ14n50uDizhsskmFprS-Q__2dBlGF3rEqciAOkBPUdvgoEO2g-UyJ0PBHolaJ05rfPJncNQAcvO6j04hX-URQ"
+#API_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImJhMWMwNTY5LWMwODMtNDYyYy1hZTY2LTA5ZjI1NWNlYzY3OCIsImlhdCI6MTc2MzA2MTg2NCwic3ViIjoiZGV2ZWxvcGVyLzViMjBmYzM1LTEwOGEtNDM1YS0yNmMwLTQ4Njk2OTA4MDQyOCIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjEyOC42MS4xMS4xMSJdLCJ0eXBlIjoiY2xpZW50In1dfQ.WOiC8ZtxNeTNgQhd5OKS_rNgOW0BzDOAypwJdySt8loUcMT27EEouDt9JOa-n6f5n1tOnL82OT4cEOqaxJIVrQ"
+API_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjI3ODI2ZGM5LWM3M2EtNGZmOS04NzEzLTQ0Nzc0M2ZhZjBmMyIsImlhdCI6MTc2NDYwNTAwNSwic3ViIjoiZGV2ZWxvcGVyLzViMjBmYzM1LTEwOGEtNDM1YS0yNmMwLTQ4Njk2OTA4MDQyOCIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjE0OS4xMDIuMjQyLjkxIl0sInR5cGUiOiJjbGllbnQifV19.OcbKnvwVw7lbPmkPMsl0kHS1Z88_mN3rstpAfm0LURK8DU38AihsPXjkhpsZLoxAN7VkhHaD_rKlvSpNnfIeGw"
+
+
+CLAN_TAG = "#2VP2UG2R".replace("#", "%23")  # URL encode the hashtag
+
+url = f"https://api.clashofclans.com/v1/clans/{CLAN_TAG}"
+headers = {
+    "Authorization": f"Bearer {API_TOKEN}"
+}
+
+response = requests.get(url, headers=headers)
+
+url2 =f"https://api.clashofclans.com/v1/clans/%232VP2UG2R/warlog?limit=10"
+headers2 = {
+    "Authorization": f"Bearer {API_TOKEN}"
+    }
+
+response2 = requests.get(url2, headers=headers2)
+
+#pprint(response.json())
+
+##################################################
+
+clan_dict = response.json()
+war_log = response2.json()
+
+clan_level = str(clan_dict["clanLevel"])
+num_members = str(clan_dict["members"])
+clan_points = str(clan_dict["clanPoints"])
+chat_language = str(clan_dict["chatLanguage"]["name"])
+clan_capital_points = str(clan_dict["clanCapitalPoints"])
+clan_location = clan_dict["location"]["name"]
+clan_name = clan_dict["name"]
+required_townhall = clan_dict["requiredTownhallLevel"]
+clan_war_league = clan_dict["warLeague"]["name"]
+join_type = clan_dict["type"]
+required_trophies = clan_dict["requiredTrophies"]
+
+#war:
+
+war_wins = clan_dict["warWins"]
+war_losses = clan_dict["warLosses"]
+war_ties = clan_dict["warTies"]
+war_frequency = clan_dict["warFrequency"]
+
+
+
+#required league:
+#required builderbase league
+
+
+#clan tag
+#clan descrption
+
+
+
+
+    
+
+
+#Start of code here
+
+def displayClanInformation():
+    
+    print("Basic Clan Information:")
+
+    print("Clan Name: " + clan_name)
+    print("Clan Description: ...")
+    print("Clan Level: " + clan_level)
+    print("Number of Members in Clan: " + num_members)
+    print("Clan War League: " + clan_war_league)
+    print("Clan Points: " + clan_points)
+    print("Clan Capital Points: " + clan_capital_points)
+    print("Clan Chat Language: " + chat_language)
+    print("Clan Location: " + clan_location)
+
+    return
+
+def displayWarLog():
+
+    print("Basic Information About Clan War Log:")
+
+    
+    return
+
+          
+
+
+
+
+
+
