@@ -11,3 +11,5 @@ def textbox1():
 
     clan_tag = st.text_input("Enter a clan tag:")
     return clan_tag
+
+textbox1()
