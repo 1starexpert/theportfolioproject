@@ -1,10 +1,14 @@
-#import clan_backend
+
+import os
+print("WORKING DIR:", os.getcwd())
+
+import clan_backend
 print("Backend imported successfully!")
 
 import requests
 
-import streamlit as st
 
+import clan_backend
 
 
 def textbox1():
@@ -13,3 +17,12 @@ def textbox1():
     return clan_tag
 
 textbox1()
+
+"""
+def textinput():
+
+    clan_tag = input("Enter a valid clan tag: ")
+    return clan_tag
+"""
+
+clan_backend.displayClanInformation(textbox1())
