@@ -11,12 +11,16 @@ import requests
 import clan_backend
 
 
-def textbox1():
+st.title("Clash of Clans Clan Info")
 
-    clan_tag = st.text_input("Enter a clan tag:")
-    return clan_tag
+# Get the user input
+clan_tag = st.text_input("Enter a clan tag:")
 
-st.write((clan_backend.displayClanInformation(textbox1())))
+# Only call backend if the user entered something
+if clan_tag:
+    clan_info = clan_backend.displayClanInformation(clan_tag)
+    for line in clan_info:
+        st.write(line)
 
 
 """
