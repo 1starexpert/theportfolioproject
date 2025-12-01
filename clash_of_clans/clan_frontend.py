@@ -1,4 +1,4 @@
-
+import streamlit as st
 import os
 print("WORKING DIR:", os.getcwd())
 
@@ -18,11 +18,16 @@ def textbox1():
 
 textbox1()
 
+st.write((clan_backend.displayClanInformation(textbox1())))
+
+
 """
 def textinput():
 
     clan_tag = input("Enter a valid clan tag: ")
     return clan_tag
+
+
+print(clan_backend.displayClanInformation(textinput()))
 """
 
-clan_backend.displayClanInformation(textbox1())
