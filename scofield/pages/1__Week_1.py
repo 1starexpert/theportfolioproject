@@ -28,5 +28,5 @@ Until next time,
 —JT
 """)
 
-st.images("scofield/Images/secondPicture.jpg", width = 200)
+st.image("scofield/Images/secondPicture.jpg", width = 200)
 
