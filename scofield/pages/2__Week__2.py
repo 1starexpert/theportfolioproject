@@ -18,7 +18,7 @@ We have gone from this:
 [insert picture here]
 
 """)
-st.image("scofield/Images/UI_first.png")
+st.image("scofield/Images/UI_one.png")
 st.write("To this:")
 
 st.write("[insert picture here]")
