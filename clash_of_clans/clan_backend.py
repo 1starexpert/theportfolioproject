@@ -47,7 +47,7 @@ def displayClanInformation(tag):
     "Clan Capital Points: " + clan_capital_points,
     "Clan Chat Language: " + chat_language,
     "Clan Location: " + clan_location,
-    "Clan Badge: " + badge_url
+    
           
     ]
     
