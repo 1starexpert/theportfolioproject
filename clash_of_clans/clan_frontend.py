@@ -19,7 +19,8 @@ clan_tag = st.text_input("Enter a clan tag:")
 # Only call backend if the user entered something
 if clan_tag:
     clan_info = clan_backend.displayClanInformation(clan_tag)
-    for line in clan_info:
+    st.image(clan_info[1])
+    for line in clan_info[0]:
         st.write(line)
 
 
