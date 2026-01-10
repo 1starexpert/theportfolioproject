@@ -38,7 +38,7 @@ def displayClanInformation(tag):
 
     clan_list = [
     
-    "Clan Name: " + clan_name,
+    ["Clan Name: " + clan_name,
     "Clan Description: ...",
     "Clan Level: " + clan_level,
     "Number of Members in Clan: " + num_members,
@@ -46,8 +46,8 @@ def displayClanInformation(tag):
     "Clan Points: " + clan_points,
     "Clan Capital Points: " + clan_capital_points,
     "Clan Chat Language: " + chat_language,
-    "Clan Location: " + clan_location,
-    
+    "Clan Location: " + clan_location,],
+    badge
           
     ]
     
