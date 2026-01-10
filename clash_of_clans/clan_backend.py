@@ -32,7 +32,7 @@ def displayClanInformation(tag):
     clan_war_league = clan_dict["warLeague"]["name"]
     join_type = clan_dict["type"]
     required_trophies = clan_dict["requiredTrophies"]
-    badge_url = clan_dict["badgeUrls"]
+    badge = clan_dict["badgeUrls"]["medium"]
     
     #print("Basic Clan Information:")
 
